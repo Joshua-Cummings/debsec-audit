@@ -14,20 +14,22 @@ Quickly scan for upgradable packages, world-writable files, listenting ports, an
 ## Installation / Quick Start
 
 ```bash
-git clone https://github.com/joshua-cummings/debsec-audit.git
+git clone https://github.com/Joshua-Cummings/debsec-audit.git
 cd debsec-audit
 python3 -m venv venv
 source venv/bin/activate
 chmod +x debsec_audit.py
+```
 
 ## Usage
 
 ```bash
 ./debsec_audit.py --help
-./debsec_audit.py              # Run all checks
+./debsec_audit.py # Run all checks
 ./debsec_audit.py --check packages
 ./debsec_audit.py --check permissions --output report.txt
 ./debsec_audit.py --check network --verbose
+```
 
 ## Project Goals
 
