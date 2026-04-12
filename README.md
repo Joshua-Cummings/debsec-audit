@@ -41,7 +41,6 @@ This tool serves as a foundation for building more advanced auditing, incident r
 - Virtual environment recommended
 
 ## Roadmap
-- Add severity ratings and color output
 - JSON export for integration with other tools
 - More checks (user accounts, SSH config, etc.)
 - Packaging for easy installation
